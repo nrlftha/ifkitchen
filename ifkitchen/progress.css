@@ -1,0 +1,75 @@
+
+          .progress{
+            margin: 0px auto;
+          }
+          .progress img{
+               height: 50px;
+               margin-bottom: 40px;
+           }
+           ul.probar{
+               text-align: center;
+           }
+           ul.probar li{
+               display: inline-block;
+               width: 140px;
+               position: relative;
+           }
+           ul.probar li .fa{
+               background: #ccc;
+               width: 13px;
+               height: 13px;
+               color: #fff;
+               border-radius: 50%;
+               padding: 3%;
+           }
+           ul.probar li .fa::after{
+               content: '';
+               background: #ccc;
+               height: 5px;
+               width: 150px;
+               display: block;
+               position: absolute;
+               left: 0;
+               top: 100px;
+               z-index: -1;
+           }
+          
+        ul.probar li:nth-child(1) .fa,
+        ul.probar li:nth-child(2) .fa,
+        ul.probar li:nth-child(3) .fa,
+        ul.probar li:nth-child(4) .fa,
+        ul.probar li:nth-child(5) .fa,
+        ul.probar li:nth-child(6) .fa,
+        ul.probar li:nth-child(7) .fa,
+        ul.probar li:nth-child(8) .fa,
+        ul.probar li:nth-child(9) .fa,
+        ul.probar li:nth-child(10) .fa
+        {
+            background: #60aa97; 
+        }
+        ul.probar li:nth-child(1) .fa::after,
+        ul.probar li:nth-child(2) .fa::after,
+        ul.probar li:nth-child(3) .fa::after,
+        ul.probar li:nth-child(4) .fa::after,
+        ul.probar li:nth-child(5) .fa::after,
+        ul.probar li:nth-child(6) .fa::after,
+        ul.probar li:nth-child(7) .fa::after,
+        ul.probar li:nth-child(8) .fa::after,
+        ul.probar li:nth-child(9) .fa::after,
+        ul.probar li:nth-child(10) .fa::after
+        {
+            background: #60aa97;  
+        }
+        ul.probar li:first-child .fa::after{
+            width: 120px;
+            left: 60px;
+       }
+       ul.probar li:last-child .fa::after{
+           width: 60px;
+       }
+      
+       
+       
+           
+
+           
