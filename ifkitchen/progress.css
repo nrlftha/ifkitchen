@@ -1,0 +1,100 @@
+
+          .progress{
+            margin: 0px auto;
+          }
+          .progress img{
+               height: 50px;
+               margin-bottom: 40px;
+           }
+           ul.probar{
+               text-align: center;
+           }
+           ul.probar li{
+               display: inline-block;
+               width: 140px;
+               position: relative;
+           }
+           ul.probar li .fa{
+               background: #ccc;
+               width: 13px;
+               height: 13px;
+               color: #fff;
+               border-radius: 50%;
+               padding: 3%;
+           }
+           ul.probar li .fa::after{
+               content: '';
+               background: #ccc;
+               height: 5px;
+               width: 150px;
+               display: block;
+               position: absolute;
+               left: 0;
+               top: 100px;
+               z-index: -1;
+           }
+          
+           ul.probar li:nth-child(1) .fa-check,
+           ul.probar li:nth-child(2) .fa-check,
+           ul.probar li:nth-child(3) .fa-check,
+           ul.probar li:nth-child(4) .fa-check,
+           ul.probar li:nth-child(5) .fa-check,
+           ul.probar li:nth-child(6) .fa-check,
+           ul.probar li:nth-child(7) .fa-check,
+           ul.probar li:nth-child(8) .fa-check,
+           ul.probar li:nth-child(9) .fa-check,
+           ul.probar li:nth-child(10) .fa-check {
+               background: #60aa97;
+           }
+           
+           ul.probar li:nth-child(1) .fa-check::after,
+           ul.probar li:nth-child(2) .fa-check::after,
+           ul.probar li:nth-child(3) .fa-check::after,
+           ul.probar li:nth-child(4) .fa-check::after,
+           ul.probar li:nth-child(5) .fa-check::after,
+           ul.probar li:nth-child(6) .fa-check::after,
+           ul.probar li:nth-child(7) .fa-check::after,
+           ul.probar li:nth-child(8) .fa-check::after,
+           ul.probar li:nth-child(9) .fa-check::after,
+           ul.probar li:nth-child(10) .fa-check::after {
+               background: #60aa97;
+           }
+           
+           ul.probar li:nth-child(1) .fa-times,
+           ul.probar li:nth-child(2) .fa-times,
+           ul.probar li:nth-child(3) .fa-times,
+           ul.probar li:nth-child(4) .fa-times,
+           ul.probar li:nth-child(5) .fa-times,
+           ul.probar li:nth-child(6) .fa-times,
+           ul.probar li:nth-child(7) .fa-times,
+           ul.probar li:nth-child(8) .fa-times,
+           ul.probar li:nth-child(9) .fa-times,
+           ul.probar li:nth-child(10) .fa-times {
+               background: #ccc;
+           }
+           
+           ul.probar li:nth-child(1) .fa-times::after,
+           ul.probar li:nth-child(2) .fa-times::after,
+           ul.probar li:nth-child(3) .fa-times::after,
+           ul.probar li:nth-child(4) .fa-times::after,
+           ul.probar li:nth-child(5) .fa-times::after,
+           ul.probar li:nth-child(6) .fa-times::after,
+           ul.probar li:nth-child(7) .fa-times::after,
+           ul.probar li:nth-child(8) .fa-times::after,
+           ul.probar li:nth-child(9) .fa-times::after,
+           ul.probar li:nth-child(10) .fa-times::after {
+               background: #ccc;
+           }
+        ul.probar li:first-child .fa::after{
+            width: 120px;
+            left: 60px;
+       }
+       ul.probar li:last-child .fa::after{
+           width: 60px;
+       }
+      
+       
+       
+           
+
+           
